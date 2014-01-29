@@ -35,7 +35,7 @@ gem "mail", "~> 2.5.4"
 gem 'jquery-rails'
 
 
-gem 'turbolinks'
+#gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 
