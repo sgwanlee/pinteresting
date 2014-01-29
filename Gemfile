@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 
 group :development, :test do
 	gem 'sqlite3'
+
 end
 
 group :production do
@@ -27,6 +28,8 @@ gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk', '~> 1.20.0'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'figaro', "~> 0.7.0"
+gem "mail", "~> 2.5.4"
 
 gem 'jquery-rails'
 
