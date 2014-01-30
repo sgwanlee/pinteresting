@@ -2,6 +2,6 @@
 	<h1>Welcome to my app.</h1>
 		<p>
 			<%= link_to "Sign in", new_user_session_path, {class: "btn btn-default btn-lg"}%>
-			<%= link_to "Sign up", new_user_registration_path, {class: "btn btn-primary btn-lg", onClick:"_gaq.push(['_trackEvent', 'Signup', 'Click Signup']);"}%>
+			<%= link_to "Sign up", new_user_registration_path, {class: "btn btn-primary btn-lg", onClick:"var _gaq = _gaq || []; _gaq.push(['_trackEvent', 'Signup', 'Click Signup']);"}%>
 		</p>
 </div>
