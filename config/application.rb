@@ -22,5 +22,8 @@ module Pinteresting
 
     # Required for Heroku
     config.assets.initialize_on_precompile = false
+
+    #Mixpanel integration
+    config.event_tracker.mixpanel_key = "5f9ec09cc9086a0a451c2f8cd8cc6a16"
   end
 end

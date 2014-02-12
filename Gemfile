@@ -39,3 +39,6 @@ gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 
+#Event tracking with mixpanel
+gem 'event_tracker'
+

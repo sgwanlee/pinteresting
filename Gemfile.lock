@@ -53,6 +53,8 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
+    event_tracker (0.2.1)
+      rails (>= 3.0)
     execjs (2.0.2)
     figaro (0.7.0)
       bundler (~> 1.0)
@@ -148,6 +150,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   devise (~> 3.1.0.rc2)
+  event_tracker
   figaro (~> 0.7.0)
   jbuilder (~> 1.2)
   jquery-rails
