@@ -4,4 +4,7 @@ class Pin < ActiveRecord::Base
 		:default_url => "/images/:style/missing.png"
 	validates	:image, :attachment_presence => true
 	# validates_with AttachmentPresenceValidator, :attributes => :image
+
+
+	scope :small_image, where(:image_file_size => 10000)
 end

@@ -4,7 +4,12 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-47572058-1', 'sg-pinteresting.herokuapp.com');
-  ga('send', 'pageview');
+  // ga('create', 'UA-47572058-1', 'sg-pinteresting.herokuapp.com');
+  ga('create', 'UA-47572058-1', {
+  	'cookieDomain': 'none'
+  });
+  ga('send', 'pageview', {
+  	'dimension1': <%= current_user ? "#{current_user.created_at.year}" +"-" + "#{current_user.created_at.month}" : "0" %>
+  });
 
 </script>
